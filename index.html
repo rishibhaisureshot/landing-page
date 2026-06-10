@@ -1,120 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Meta Pixel Code -->
-<script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1234949121842241');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1234949121842241&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-  
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Rishi Bhai Sureshot</title>
-
-<script src="https://cdn.tailwindcss.com"></script>
+<title>RISHI BHAI SURESHOT VIP</title>
 
 <style>
-body {
-  background: radial-gradient(circle at center, #1a0000, #000);
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
-/* Glow Button */
-.glow {
-  box-shadow: 0 0 25px #22c55e;
-  transition: 0.3s;
-}
-.glow:hover {
-  box-shadow: 0 0 50px #22c55e;
+body{
+background:#000;
+color:#fff;
+text-align:center;
+padding:20px;
 }
 
-/* Card Glow */
-.card {
-  box-shadow: 0 0 40px rgba(255,100,0,0.4);
+.profile{
+width:160px;
+height:160px;
+border-radius:50%;
+border:4px solid #00cfff;
+box-shadow:0 0 25px #00cfff;
+object-fit:cover;
+margin:30px auto 20px;
+display:block;
 }
 
-/* Animation */
-.fadeIn {
-  animation: fade 1.5s ease-in-out;
+h1{
+font-size:36px;
+margin-bottom:10px;
 }
-@keyframes fade {
-  from {opacity:0; transform: translateY(20px);}
-  to {opacity:1; transform: translateY(0);}
+
+.subtitle{
+font-size:24px;
+color:#00cfff;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.desc{
+font-size:18px;
+line-height:1.6;
+color:#ccc;
+max-width:500px;
+margin:0 auto 25px;
+}
+
+.btn{
+display:inline-block;
+padding:18px 35px;
+background:#00cfff;
+color:#000;
+font-size:24px;
+font-weight:bold;
+text-decoration:none;
+border-radius:18px;
+box-shadow:0 0 20px #00cfff;
+margin-bottom:35px;
+}
+
+.timer-box{
+max-width:500px;
+margin:20px auto;
+border:3px solid #00cfff;
+border-radius:20px;
+padding:25px;
+box-shadow:0 0 20px #00cfff;
+}
+
+.timer-title{
+font-size:26px;
+font-weight:bold;
+color:#00cfff;
+margin-bottom:20px;
+}
+
+.time{
+font-size:60px;
+font-weight:bold;
+}
+
+.small{
+font-size:18px;
+color:#aaa;
+}
+
+.footer{
+margin-top:40px;
+color:#777;
+font-size:15px;
 }
 </style>
-
 </head>
+<body>
 
-<body class="flex items-center justify-center min-h-screen text-center text-white">
+<!-- Profile Image -->
+<img class="profile"
+src="https://via.placeholder.com/300">
 
-<div class="absolute top-3 text-sm bg-black/70 px-4 py-2 rounded-lg">
-⏳ Redirecting in <span id="timer">3</span> sec...
+<h1>VIP GROUP OFFICIAL</h1>
+
+<div class="subtitle">
+Premium Signals & Insights 🔥
 </div>
 
-<div class="card bg-black/80 p-6 rounded-2xl max-w-md w-full fadeIn border border-orange-500">
+<div class="desc">
+Join our exclusive Telegram community for daily updates, signals and market insights.
+</div>
 
-<!-- VIP Small Image -->
-<img src="vip-banner.png"
-style="width:120px; height:120px; object-fit:cover; border-radius:12px; display:block; margin:10px auto; border:2px solid gold;">
-  
-<h1 class="text-yellow-400 text-xl font-bold mb-2">
-👑 RISHI BHAI SURESHOT 👑
-</h1>
-
-<p class="text-green-400 mb-2">EXCLUSIVE COMMUNITY</p>
-
-<h2 class="text-3xl font-bold mb-3">
-Join Our Free <span class="text-green-400">Telegram Group</span>
-</h2>
-
-<p class="text-gray-300 mb-5">
-Get daily updates, insights, and real-time signals.
-</p>
-
-<!-- CTA -->
-<a href="https://t.me/+vESWnGVEc2diZjFl" target="_blank"
-onclick="fbq('track', 'Lead');"
-class="block bg-green-500 py-3 rounded-xl font-bold glow mb-5">
+<a class="btn"
+href="https://t.me/+vESWnGVEc2diZjFl">
 🚀 JOIN TELEGRAM NOW
 </a>
 
-<!-- Features -->
-<div class="grid grid-cols-2 gap-3 text-sm mb-5">
+<div class="timer-box">
 
-<div class="bg-black p-3 rounded-xl border border-gray-700">
-✔ Daily Updates
+<div class="timer-title">
+⚡ Limited Offer Ends In ⚡
 </div>
 
-<div class="bg-black p-3 rounded-xl border border-gray-700">
-✔ Active Community
+<div class="time">
+<span id="sec">15</span>
 </div>
 
-<div class="bg-black p-3 rounded-xl border border-gray-700">
-✔ Fast Signals
-</div>
-
-<div class="bg-black p-3 rounded-xl border border-gray-700">
-✔ Free Join
+<div class="small">
+Seconds
 </div>
 
 </div>
 
-<p class="text-yellow-400 text-sm">
-🔥 Limited-Time Access • Join Now
-</p>
-
+<div class="footer">
+Managed By RISHI BHAI SURESHOT
 </div>
+
+<script>
+
+let sec = 15;
+
+const timer = setInterval(() => {
+
+document.getElementById("sec").innerText = sec;
+
+if(sec <= 0){
+clearInterval(timer);
+window.location.href =
+"https://t.me/+vESWnGVEc2diZjFl";
+}
+
+sec--;
+
+},1000);
+
+</script>
 
 </body>
 </html>
