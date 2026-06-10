@@ -100,19 +100,8 @@ font-size:15px;
 <body>
 
 <!-- Profile Image -->
-<img class=".logo{
-width:130px;
-height:auto;
-display:block;
-margin:0 auto 15px;
-
-filter:
-drop-shadow(0 0 8px #ff9900)
-drop-shadow(0 0 15px #ff9900)
-drop-shadow(0 0 20px #00d9ff);
-}
-src="logo.png"
-alt="Rishi Bhai VIP Sureshot">
+<img class="profile"
+src="https://via.placeholder.com/300">
 
 <h1>VIP GROUP OFFICIAL</h1>
 
@@ -151,7 +140,6 @@ Managed By RISHI BHAI SURESHOT
 
 <script>
 
-<script>
 let sec = 7;
 
 const timer = setInterval(() => {
@@ -160,13 +148,14 @@ document.getElementById("sec").innerText = sec;
 
 if(sec <= 0){
 clearInterval(timer);
-window.location.href="https://t.me/+vESWnGVEc2diZjFl";
+window.location.href =
+"https://t.me/+vESWnGVEc2diZjFl";
 }
 
 sec--;
 
 },1000);
-</script>
+
 </script>
 
 </body>
